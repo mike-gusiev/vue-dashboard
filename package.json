@@ -1,0 +1,26 @@
+{
+  "name": "vue-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "build-only": "vite build"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.3",
+    "vue": "^3.4.29",
+    "vue-chart-3": "^3.1.8",
+    "vue-chartjs": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
